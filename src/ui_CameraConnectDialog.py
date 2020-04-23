@@ -1,8 +1,16 @@
+'''
+ # @ Author: Qt Designer
+ # @ Create Time: 2020-04-22 17:15:30
+ # @ Modified by: Your name
+ # @ Modified time: 2020-04-23 13:31:04
+ # @ Description:
+ '''
+
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'CameraConnectDialog.ui'
 #
-# Created by: PyQt5 UI code generator 5.11.3
+# Created by: PyQt5 UI code generator 5.14.2
 #
 # WARNING! All changes made in this file will be lost!
 

@@ -31,7 +31,7 @@
      <x>10</x>
      <y>10</y>
      <width>721</width>
-     <height>471</height>
+     <height>480</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -47,7 +47,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Camera:</string>
+         <string> Camera:</string>
         </property>
        </widget>
       </item>
@@ -366,7 +366,7 @@
         <item>
          <widget class="QLabel" name="label">
           <property name="text">
-           <string>apiPreference:</string>
+           <string> API Preference:</string>
           </property>
          </widget>
         </item>
@@ -385,7 +385,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Image Buffer:</string>
+         <string> Image Buffer:</string>
         </property>
        </widget>
       </item>
@@ -403,7 +403,7 @@
              </font>
             </property>
             <property name="text">
-             <string>Size (number of images/frames):</string>
+             <string> Size (number of images/frames):</string>
             </property>
            </widget>
           </item>
@@ -454,7 +454,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Drop frame if image buffer is full</string>
+         <string> Drop frame if image buffer is full</string>
         </property>
        </widget>
       </item>
@@ -468,7 +468,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Thread Priorities:</string>
+         <string> Thread Priorities:</string>
         </property>
        </widget>
       </item>
@@ -486,7 +486,7 @@
              </font>
             </property>
             <property name="text">
-             <string>Capture Thread:</string>
+             <string> Capture Thread:</string>
             </property>
            </widget>
           </item>
@@ -500,7 +500,7 @@
              </font>
             </property>
             <property name="text">
-             <string>Processing Thread:</string>
+             <string> Processing Thread:</string>
             </property>
            </widget>
           </item>
@@ -542,7 +542,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Tab Label:</string>
+           <string> Tab Label:</string>
           </property>
          </widget>
         </item>

@@ -19,7 +19,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,0,0,0">
    <item>
     <widget class="FrameLabel" name="frameLabel">
      <property name="enabled">
@@ -39,6 +39,19 @@
      </property>
      <property name="frameShape">
       <enum>QFrame::Box</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Camera Display</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -69,11 +82,11 @@
          <bold>true</bold>
         </font>
        </property>
-       <property name="text">
-        <string>Đường dẫn thiết bị camera (url):</string>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
        </property>
-       <property name="textFormat">
-        <enum>Qt::AutoText</enum>
+       <property name="text">
+        <string> Camera Device Url:</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -96,7 +109,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Độ phân giải camera:</string>
+        <string> Camera Resolution:</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -176,7 +189,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Con trỏ:</string>
+        <string> Cursor:</string>
        </property>
       </widget>
      </item>
@@ -238,7 +251,7 @@
         </font>
        </property>
        <property name="text">
-        <string>ROI:</string>
+        <string> ROI:</string>
        </property>
       </widget>
      </item>
@@ -258,7 +271,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Bộ nhớ đệm:</string>
+        <string> Image Buffer:</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -302,7 +315,30 @@
         </font>
        </property>
        <property name="text">
-        <string>Tốc độ xử lý:</string>
+        <string> Processing Rate:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string> Capture Rate:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
@@ -392,7 +428,7 @@
         </font>
        </property>
        <property name="text">
-        <string>Làm sạch bộ nhớ đệm</string>
+        <string>Clear Image Buffer</string>
        </property>
       </widget>
      </item>
@@ -408,7 +444,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Bắt đầu</string>
+        <string>Start</string>
        </property>
       </widget>
      </item>
@@ -424,7 +460,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Dừng</string>
+        <string>Pause</string>
        </property>
       </widget>
      </item>
@@ -439,31 +475,11 @@
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
-       <property name="text">
-        <string>Kết nối lại</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_2">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>8</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
+       <property name="styleSheet">
+        <string notr="true"/>
        </property>
        <property name="text">
-        <string> Tốc độ chụp:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        <string>Reconnect</string>
        </property>
       </widget>
      </item>

@@ -933,7 +933,7 @@
               </font>
              </property>
              <property name="text">
-              <string>Threshold 1:</string>
+              <string> Threshold 1:</string>
              </property>
             </widget>
            </item>
@@ -1004,7 +1004,7 @@
               </font>
              </property>
              <property name="text">
-              <string>Threshold 2:</string>
+              <string> Threshold 2:</string>
              </property>
             </widget>
            </item>
@@ -1075,7 +1075,7 @@
               </font>
              </property>
              <property name="text">
-              <string>Aperture Size:</string>
+              <string> Aperture Size:</string>
              </property>
             </widget>
            </item>
@@ -1281,7 +1281,7 @@
   </connection>
  </connections>
  <buttongroups>
-  <buttongroup name="smoothTypeGroup"/>
   <buttongroup name="flipCodeGroup"/>
+  <buttongroup name="smoothTypeGroup"/>
  </buttongroups>
 </ui>

@@ -46,7 +46,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 and len(self.deviceUrlDict) > 0
                 and self.sharedImageBuffer.getSyncEnabled()):
             # Prompt user
-            QMessageBox.warning(self, "pyqt5-cv2-multithreaded",
+            QMessageBox.warning(self, "Ziship",
                                 "Stream synchronization is in progress.\n\n"
                                 "Please close all currently open streams "
                                 "before attempting to open a new stream.",
@@ -72,7 +72,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                     # Check if stream synchronization is enabled
                     if self.actionSynchronizeStreams.isChecked():
                         # Prompt user
-                        ret = QMessageBox.question(self, "pyqt5-cv2-multithreaded",
+                        ret = QMessageBox.question(self, "Ziship",
                                                    "Stream synchronization is enabled.\n\n"
                                                    "Do you want to start processing?\n\n"
                                                    "Choose 'No' if you would like to open "
@@ -145,7 +145,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 and not self.sharedImageBuffer.getSyncEnabled()):
             # Prompt user
             ret = QMessageBox.question(self,
-                                       "pyqt5-cv2-multithreaded",
+                                       "Ziship",
                                        "Stream synchronization is enabled.\n\n"
                                        "Disconnecting this camera will cause frame "
                                        "processing to begin on other streams.\n\n"
@@ -188,9 +188,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def showAboutDialog(self):
         QMessageBox.information(self, "About",
-                                "Created by Nick D'Ademo\n\n"
-                                "Contact: nickdademo@gmail.com\n"
-                                "Website: www.nickdademo.com\n"
+                                "Designed by Phong Pham\n\n"
+                                "Contact: phongpham663@gmail.com\n"
+                                "Website: www.zipi-iot-a517c.firebase.com\n"
                                 "Version: %s\n\n"
                                 "Refactoring by Flyto\n\n" % APP_VERSION)
 
